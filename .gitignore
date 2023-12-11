@@ -1,4 +1,5 @@
 node_modules
 sendgrid.env
 .env
-ROTEIRO.TXT
+roteiro.txt
+.vercel
