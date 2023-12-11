@@ -10,4 +10,4 @@ funcao= async(req, res) - Controllers
 
 funcaoAux - Services 
 
-funcaoSQL - database 
+funcaoSQL - database  
