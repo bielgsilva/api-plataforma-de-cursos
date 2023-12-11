@@ -1,4 +1,7 @@
 {
-    "version": 2
-  }
-  
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/favicon.ico", "dest": "/path/to/your/favicon.ico" }
+  ]
+}
