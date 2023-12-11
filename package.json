@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+    "url": "https://github.com/bielgsilva/api-plataforma-de-cursos"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+    "url": "https://api-plataforma-de-cursos.vercel.app/issues"
   },
   "homepage": "https://api-plataforma-de-cursos.vercel.app",
   "dependencies": {
