@@ -20,3 +20,4 @@ userRoutes.post("/login", loginUser);
 userRoutes.put("/users/edit/profile/:id", updateUsers);
 
 module.exports = userRoutes;
+
