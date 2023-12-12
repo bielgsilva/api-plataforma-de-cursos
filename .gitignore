@@ -4,3 +4,6 @@ sendgrid.env
 roteiro.txt
 .vercel
 vercel.json
+
+# Local Netlify folder
+.netlify
