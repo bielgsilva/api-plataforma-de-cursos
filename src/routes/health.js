@@ -1,8 +1,8 @@
 const express = require("express");
-const routes = express();
+const health = express.Router();
 
-routes.get("/", (request, response) => {
+health.get("/", (request, response) => {
   return response.json({ message: "Server is Running" });
 });
 
-module.exports = routes;
+module.exports = health;

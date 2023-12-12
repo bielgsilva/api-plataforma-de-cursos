@@ -3,17 +3,17 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-const routes = require("../routes/healthCheck");
+const health = require("../routes/health");
 const userRoutes = require("../routes");
 
 app.use(express.json());
 app.use(cors());
 
 //teste de rotas
-app.use("/api/routes", routes);
+app.use(health);
 
 //rotas de usuarios
-app.use("/api/userRoutes", userRoutes);
+app.use( userRoutes);
 
 app.listen(process.env.PORT || 3000);
 
