@@ -9,7 +9,7 @@ const {
   getUser,
 } = require("../controllers/usersControllers");
 
-userRoutes.get("/select", selectAllUser);
+userRoutes.get("/api/select", selectAllUser);
 userRoutes.get("/get-user", getUser);
 
 userRoutes.post("/users/check-email", checkEmail);
