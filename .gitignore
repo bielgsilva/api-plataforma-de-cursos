@@ -3,3 +3,4 @@ sendgrid.env
 .env
 roteiro.txt
 .vercel
+vercel.json
