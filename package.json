@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/server/index.js",
-    "dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
     "pg": "^8.11.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2",
-    "vercel": "^32.7.0"
+    "nodemon": "^3.0.2"
   }
 }

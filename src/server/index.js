@@ -1,3 +1,4 @@
+require("dotenv").config(); 
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -9,9 +10,11 @@ app.use(express.json());
 app.use(cors());
 
 //teste de rotas
-app.use(routes);
+app.use("/api/routes", routes);
 
 //rotas de usuarios
-app.use(userRoutes);
+app.use("/api/userRoutes", userRoutes);
 
-module.exports = app;
+app.listen(process.env.PORT || 3000);
+
+
